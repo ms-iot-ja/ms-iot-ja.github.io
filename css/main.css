@@ -1,0 +1,111 @@
+
+body 
+{
+  font-family: "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  font-size: 12pt;
+}
+
+/* // ja-jp */
+@media screen and (min-width: 768px) {
+  .jumbotron .ttl_toppage {
+    font-size: 3.0em;
+	margin-top:30px;
+	padding-bottom:15px;
+  }
+  .sub_toppage {
+	  /*font-size: 0.75em;*/
+	  font-size: 21px;
+	  font-weight: 200;
+	  line-height: 1.42857;
+  }
+}
+.sub_ttl_toppage {
+	font-size:1.5em;
+}
+.sub_txt_toppage {
+	font-size:0.85em;
+}
+/* ja-jp // */
+
+@media only screen and (min-width: 1200px)
+{
+  .headerBackground
+  {
+    background-image: url('../images/Iot.jpg');
+    background-color: #3C3C3C;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+}
+
+.headerBackground
+{
+  background-color: #3C3C3C;
+  height: 400px;
+}
+
+.navbar-brand
+{ 
+  font-family: "Segoe UI Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  color: #00188f;
+}
+
+.navbar-default .navbar-brand 
+{
+  color: #00188f;
+}
+
+.navbar-nav > li > a
+{
+  color: #00188f;
+}
+
+.navbar
+{
+  background-color: #ffffff;
+}
+
+.jumbotron
+{
+  background-color: #3C3C3C;
+  color: #ffffff;
+}
+
+.jumbotron h1
+{
+  font-family: "Segoe UI Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+
+.jumbotron p
+{
+  font-family: "Segoe UI Semibold","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+
+
+.jumbotron.jumbo-linklist
+{
+  margin-top: 3em;
+  background-color: #ebebeb;
+}
+
+.jumbotron.jumbo-linklist  a
+{
+  color: #1e75bb;
+  /*font-family: "Segoe UI Light","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;*/
+  font-family: "Segoe UI Semibold","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+}
+
+.btn-default
+{
+  color: #ffffff;
+  background-color: #00188f;
+}
+
+.HomepageTileLink
+{
+  font-size: 1em;
+  color: #1e75bb;
+  font-family: "Segoe UI Semibold","Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  line-height: 1.429em;
+}
